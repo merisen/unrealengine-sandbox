@@ -18,6 +18,15 @@ void AGeometryHubActor::BeginPlay()
 	actorTransformAndSpawn();
 }
 
+void AGeometryHubActor::onColorChanged(const FLinearColor& color, const FString& name)
+{
+}
+
+void AGeometryHubActor::onTimerFinished(AActor* actor)
+{
+
+}
+
 // Called every frame
 void AGeometryHubActor::Tick(float DeltaTime)
 {
